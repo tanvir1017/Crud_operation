@@ -5,6 +5,8 @@ require("dotenv").config();
 const { MongoClient, ServerDescription } = require("mongodb");
 const ObjectId = require("mongodb").ObjectId;
 
+// DB_USER=crud-operation
+// DB_PASS=KtVGblQPBISMnBB8
 const port = process.env.PORT || 5000;
 
 app.use(cors());
