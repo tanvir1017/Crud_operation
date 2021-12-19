@@ -1,0 +1,13 @@
+#app form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#app form input {
+  padding: 10px;
+}
+#app form input,
+textarea {
+  width: 40%;
+}
